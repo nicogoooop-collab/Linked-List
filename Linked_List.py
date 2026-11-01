@@ -35,7 +35,6 @@ class LinkedList:
         else:
             self.head = current_node.next
         self.length -= 1
-
 my_list = LinkedList()
 print(my_list.is_empty())
 
